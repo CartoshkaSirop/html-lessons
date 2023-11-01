@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none}
+a:focus,:active{outline: none}
+
+nav,footer,header,aside{display: block}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit}
+
+input::-ms-clear{display: none}
+button{cursor: pointer}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none}
+a:hover{text-decoration: none}
+ul li{list-style: none}
+img{vertical-align: top}
+
+h1, h2, h3, h4, h5, h6{font-size: inherit;font-weight: 400;}
+
+body{
+    background: url("https://img.freepik.com/premium-photo/blurred-background-autumn-forest-abstract-art-sunny-autumn-park-glow-yellow-october-view_548821-3413.jpg?w=740") 0 0/100% auto;
+
+}
+
+.travel{
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-family: "Bookman Old Style", Serif, serif;
+    opacity: 0.5;
+    color: darkorange;
+    font-size: 15px;
+    text-shadow: 5px 5px 5px orangered;
+}
+.lore{
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-size: 50px;
+    font-family: "Bookman Old Style", Serif, serif;
+    color: darkorange;
+    opacity: 0.9;
+    text-shadow: 5px 5px 5px orangered;
+}
+.forofox{
+    display: block;
+    width: 150px;
+    border: 1px solid darkorange;
+    box-shadow: 5px 3px 10px darkorange;
+}
+.ooo{
+    width: 150px;
+    padding: 20px 0 0 600px;
+}
+.message{
+    text-align: center;
+    padding: 30px;
+    font-family: "Bookman Old Style", Serif, serif;
+    color: darkorange;
+    text-shadow: 5px 5px 5px orangered;
+}
+button{
+padding: 20px 0 0 630px;
+}
+.color{
+    color: orangered;
+    background: none        ;
+    text-shadow: 5px 5px 5px orangered;
+    font-size: 20px;
+    opacity: 0.9;
+    padding: 20px 0 0 630px;
+}
