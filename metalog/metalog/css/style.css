@@ -93,10 +93,19 @@ body{
 }
 
 .about__row {
-
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0;
+    margin: 0 -15px;
 }
 
 .about__column {
+    padding: 0 15px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    max-width: 300px;
 }
 
 .item-about {
@@ -104,7 +113,7 @@ body{
 }
 
 .item-about__icon {
-    margin: 0px auto 40px auto;
+    margin: 0 auto 40px auto;
     border-radius: 50%;
     width: 92px;
     height: 92px;
@@ -124,7 +133,7 @@ body{
 .item-about__title {
     text-align: center;
     margin: 0 0 35px 0;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 22px;
     line-height: 1.2;
     font-weight: 400;
@@ -135,7 +144,7 @@ body{
 .item-about__text {
     text-align: center;
     margin: 0 0 35px 0;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 300;
