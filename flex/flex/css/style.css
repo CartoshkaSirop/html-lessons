@@ -33,9 +33,10 @@ body{
 }
 
 .hi {
-	background-color: #445162;
+	background-image: url("/flex/flex/img/image.jpg");
+	background-repeat: no-repeat;
 	padding: 50px;
-
+	background-size: 100% auto;
 }
 
 .container {
@@ -69,8 +70,8 @@ body{
 	color: #ffffff
 }
 .hi__text li{
-	background: url("../img/icons/icon.png")left no-repeat;
-	padding-left: 36px;
+	background: url("../img/icons/icon.png")right no-repeat;
+	padding-right: 35px;
 }
 
 .hi__image {
@@ -85,9 +86,11 @@ body{
 }
 
 .about__image {
+	order: 2;
 }
 
 .about__body {
+	order: 1;
 	padding-left: 39px;
 }
 
@@ -124,7 +127,7 @@ body{
 }
 
 .columns__row {
-	display: flex;
+	display: block;
 	flex-wrap: wrap;
 	margin: 0 -8px;
 }
@@ -274,4 +277,7 @@ a {
 .textcont{
 	margin: 0 auto;
 	align-items: center;
+}
+.toto{
+	padding-top: 110px;
 }
