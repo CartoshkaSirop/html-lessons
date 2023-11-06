@@ -33,7 +33,7 @@ body{
 }
 
 .hi {
-	background-image: url("/flex/flex/img/image.jpg");
+	background-image: url("./flex/flex/img/image.jpg");
 	background-repeat: no-repeat;
 	padding: 50px;
 	background-size: 100% auto;
