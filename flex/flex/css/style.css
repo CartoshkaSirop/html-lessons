@@ -281,3 +281,7 @@ a {
 .toto{
 	padding-top: 110px;
 }
+.hi__text li:before{
+	content: "·";
+	padding-right: 2px;
+}
