@@ -1,0 +1,338 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+.header{
+    height: 67px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #191919;
+}
+.header__button{
+    font-family: DM Sans, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-right: 30px;
+}
+.header__button:last-child{
+    padding: 0;
+}
+.header__button__red{
+    font-family: DM Sans, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #118DA8;
+    padding-right: 30px;
+}
+.podcast{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #191919;
+    justify-content: center;
+    align-items: center;
+}
+
+.podcast__text__area {
+    padding-left: 40px;
+}
+
+.podcast__text {
+    font-family: DM Sans;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.200000047683716px;
+    text-align: left;
+    color: white;
+}
+.nigga{
+    border-radius: 14px;
+}
+
+.podcast__text__fat {
+    font-family: DM Sans, serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 3.200000047683716px;
+    text-align: left;
+
+}
+
+.podcast__links {
+    padding-top: 60px;
+}
+
+.podcast__links__title {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.links__body {
+    padding-top: 15px;
+}
+
+.podcast__link {
+    padding-right: 10px;
+}
+.podcast__link:last-child{
+    padding-right: 0;
+}
+.episodes {
+    background-color: #191919;
+    padding: 0 40px;
+    padding-top: 40px;
+}
+
+.episodes__title__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episodes__title {
+    font-family: DM Sans, serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: white;
+}
+body{
+    background-color: #191919;
+}
+.episodes__title__button {
+    width: 178px;
+    height: 51px;
+    background-color: #118DA8;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.episodes__blocks__body {
+    padding-top: 40px;
+}
+
+.episodes__block {
+    padding: 0 40px;
+    height: 545px;
+    border-radius: 32px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.block__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    height: 432px;
+}
+
+.block__title {
+    font-family: DM Sans, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: white;
+    width: 136px;
+    height: 27px;
+    border-radius: 6px;
+    background-color: #191919;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.block__text__1 {
+    font-family: DM Sans, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #118DA8;
+}
+
+.block__text__2 {
+    font-family: DM Sans, serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 2.559999942779541px;
+    text-align: left;
+    color: white;
+}
+
+.block__text__3 {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.block__button {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: white;
+    width: 208px;
+    height: 51px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block__button__text{
+    color: white;
+}
+.episodes__title__button__text{
+    color: white;
+}
+.mail {
+    display: flex;
+    background-color: #000000;
+    width: 85%;
+    border-radius: 32px;
+    position: absolute;
+    left: 7%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    padding-left: 40px;
+
+}
+
+.mail__text__body {
+}
+
+.mail__text__title {
+    font-family: DM Sans, serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: white;
+}
+
+.mail__enter {
+}
+
+.mail__enter__form {
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    background-color: #191919;
+    margin-top: 30px;
+    font-family: DM Sans, serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.mail__submit {
+    width: 87px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #118DA8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: DM Sans, serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: white;
+    margin-top: 30px;
+}
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+    background-color: #191919;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo__name {
+}
+
+.footer__icons {
+    padding-top: 10px;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__column__text {
+    font-family: DM Sans, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer__links {
+    padding-right: 70px;
+}
+.footer__link{
+    padding-right: 10px;
+}
