@@ -1,0 +1,317 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>FLEXBOX</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<section class="header">
+			<div class="header__company">
+				<img src="./img/logo.svg" alt="" class="logo">
+				<span class="header__company__name">Study AI</span>
+			</div>
+			<div class="header__buttons">
+				<a href="https://vk.com/gyurov0" target="_blank" class="header__button">О сервисе</a>
+				<a href="https://vk.com/gyurov0" target="_blank" class="header__button">Возможности</a>
+				<a href="https://vk.com/gyurov0" target="_blank" class="header__button">Отзывы</a>
+				<a href="https://vk.com/gyurov0" target="_blank" class="header__button">Контакты</a>
+			</div>
+			<div class="header__register">
+				<a href="https://vk.com/gyurov0" target="_blank" class="header__button__reg"><div class="header__buttons__text">Создать аккаунт</div></a>
+				<a href="https://vk.com/gyurov0" target="_blank" class="header__button__log"><div class="header__buttons__text">Войти</div></a>
+			</div>
+			<button type="button" class="header__burger" id="burger">
+				<img src="./img/Group%202688BURG.png" alt="">
+			</button>
+		</section>
+		<section class="about">
+			<div class="about__text">
+				<h2 class="about__text__title">Решайте задачи <br>
+					по учебе за <span class="about__text__title__purple">1 минуту</span><br>
+					с помощью нейросети
+				</h2>
+				<p class="about__text__text">Поможем справиться с любой задачей - от выполнения домашних заданий до успешной защиты диплома.</p>
+			</div>
+			<div class="about__button">
+				<img src="./img/Group%203964.png" alt="">
+				<p class="about__button__text">Узнайте, как  это работает <br> за 2 минуты.</p>
+			</div>
+			<div class="about__functions">
+				<div class="about__function">
+					<img src="./img/selfie.png" alt="">
+					<span class="about__function__title">Расшифровываем фото и аудио <br>
+					<span class="about__function__text">Не придется печатать.</span></span>
+				</div>
+				<div class="about__function">
+					<img src="./img/selfie.png" alt="">
+					<span class="about__function__title">Расшифровываем фото и аудио <br>
+					<span class="about__function__text">Не придется печатать.</span></span>
+				</div>
+				<div class="about__function">
+					<img src="./img/selfie.png" alt="">
+					<span class="about__function__title">Расшифровываем фото и аудио <br>
+					<span class="about__function__text">Не придется печатать.</span></span>
+				</div>
+			</div>
+			<div class="about__reg">
+				<a href="https://vk.com/gyurov0" target="_blank" class="about__reg__button">Создать аккаунт</a>
+				<a href="https://vk.com/gyurov0" target="_blank" class="about__log__button">Войти</a>
+			</div>
+			<div class="about__reviews">
+				<div class="about__reviews__img">
+					<img src="./img/photo.png" alt="">
+				</div>
+				<div class="about__reviews__score">
+					<img src="./img/Frame%204028.png" alt="">
+					<p class="about__reviews__text">👋🏼 Присоединяйтесь к 33 490 пользователям</p>
+				</p>
+			</div>
+		</div>
+	</section>
+			<section class="info">
+			<div class="info__about">
+				<p class="info__about__title">Для тех, кто учится</p>
+				<p class="info__about__text"><span class="info__about__text__purple">Study AI</span> - сервис на основе искусственного интеллекта, который
+					 помогает школьникам и студентам учиться более эффективно.</p>
+			</div>
+			<div class="info__columns">
+				<div class="info__column">
+					<div class="info__column__text__body">
+						<p class="info__column__title">Домашние задания</p>
+						<p class="info__column__text">Напишем уникальное сочинение
+							и эссе на заданную тему.</p>
+					</div>
+					<img src="./img/right.svg" alt="" class="info__column__img">
+				</div>
+				<div class="info__column">
+					<div class="info__column__text__body">
+						<p class="info__column__title">Домашние задания</p>
+						<p class="info__column__text">Напишем уникальное сочинение
+							и эссе на заданную тему.</p>
+					</div>
+					<img src="./img/right.svg" alt="" class="info__column__img">
+				</div>
+				<div class="info__column">
+					<div class="info__column__text__body">
+						<p class="info__column__title">Домашние задания</p>
+						<p class="info__column__text">Напишем уникальное сочинение
+							и эссе на заданную тему.</p>
+					</div>
+					<img src="./img/right.svg" alt="" class="info__column__img">
+				</div>
+				<div class="info__column">
+					<div class="info__column__text__body">
+						<p class="info__column__title">Домашние задания</p>
+						<p class="info__column__text">Напишем уникальное сочинение
+							и эссе на заданную тему.</p>
+					</div>
+					<img src="./img/right.svg" alt="" class="info__column__img">
+				</div>
+				<div class="info__column">
+					<div class="info__column__text__body">
+						<p class="info__column__title">Домашние задания</p>
+						<p class="info__column__text">Напишем уникальное сочинение
+							и эссе на заданную тему.</p>
+					</div>
+					<img src="./img/right.svg" alt="" class="info__column__img">
+				</div>
+				<div class="info__column">
+					<div class="info__column__text__body">
+						<p class="info__column__title">Домашние задания</p>
+						<p class="info__column__text">Напишем уникальное сочинение
+							и эссе на заданную тему.</p>
+					</div>
+					<img src="./img/right.svg" alt="" class="info__column__img">
+				</div>
+			</div>
+			<div class="info__blocks">
+				<div class="info__block">
+					<div class="info__block__text__body">
+						<p class="info__block__title">Распознаём текст на фотографиях и скриншотах</p>
+						<p class="info__block__text">Study AI может быстро распознавать текст на изображениях, ведь печатать не всегда возможно или долго.</p>
+						<ul class="info__block__list">
+							<li class="info__block__list__text"><span class="info__block__list__number">1</span>Загрузите изображение</li>
+							<li class="info__block__list__text"><span class="info__block__list__number">2</span>Загрузите изображение</li>
+							<li class="info__block__list__text"><span class="info__block__list__number">3</span>Загрузите изображение</li>
+						</ul>
+					</div>
+					<img src="./img/chel.png" alt="" class="info__block__image">
+				</div>
+				<div class="info__block__second">
+					<div class="info__block__text__body">
+						<p class="info__block__title__second">Распознаём текст на фотографиях и скриншотах</p>
+						<p class="info__block__text__second">Study AI может быстро распознавать текст на изображениях, ведь печатать не всегда возможно или долго.</p>
+						<ul class="info__block__list">
+							<li class="info__block__list__text__second"><span class="info__block__list__number__second">1</span>Загрузите изображение</li>
+							<li class="info__block__list__text__second"><span class="info__block__list__number__second">2</span>Загрузите изображение</li>
+							<li class="info__block__list__text__second"><span class="info__block__list__number__second">3</span>Загрузите изображение</li>
+						</ul>
+					</div>
+					<img src="./img/chel.png" alt="" class="info__block__image">
+				</div>
+			</div>
+		</section>
+			<section class="reviews">
+			<div class="reviews__text__body">
+				<h2 class="reviews__title">Что говорят о Study AI</h2>
+				<p class="reviews__text">Популярные отзывы из Telegram.</p>
+			</div>
+			<div class="reviews__body">
+				<div class="reviews__block">
+					<p><p class="reviews__block__title">«Сверхбыстрые ответы»</p>
+					<p class="reviews__block__text">Помогает мне решать домашние работы
+						по всем предметам. Это сильно помогает
+						мне не терять интерес к обучению, делая
+						раньше глупые задачи самостоятельно.</p></p>
+					<div class="reviews__block__contact">
+						<img src="./img/sveta.png" alt="">
+						<div class="reviews__block__contact__body">
+							<span class="reviews__block__contact__name">Наталья Рубцова</span>
+							<p><img src="./img/Telegram_logo%203.png" alt=""></p>
+						</div>
+					</div>
+				</div>
+				<div class="reviews__block">
+					<p><p class="reviews__block__title">«Сверхбыстрые ответы»</p>
+					<p class="reviews__block__text">Помогает мне решать домашние работы
+						по всем предметам. Это сильно помогает
+						мне не терять интерес к обучению, делая
+						раньше глупые задачи самостоятельно.</p></p>
+					<div class="reviews__block__contact">
+						<img src="./img/sveta.png" alt="">
+						<div class="reviews__block__contact__body">
+							<span class="reviews__block__contact__name">Наталья Рубцова</span>
+							<p><img src="./img/Telegram_logo%203.png" alt=""></p>
+						</div>
+					</div>
+				</div>
+				<div class="reviews__block">
+					<p><p class="reviews__block__title">«Сверхбыстрые ответы»</p>
+					<p class="reviews__block__text">Помогает мне решать домашние работы
+						по всем предметам. Это сильно помогает
+						мне не терять интерес к обучению, делая
+						раньше глупые задачи самостоятельно.</p></p>
+					<div class="reviews__block__contact">
+						<img src="./img/sveta.png" alt="">
+						<div class="reviews__block__contact__body">
+							<span class="reviews__block__contact__name">Наталья Рубцова</span>
+							<p><img src="./img/Telegram_logo%203.png" alt=""></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews__buttons">
+				<button>
+					<img src="./img/Group%2039903214.svg" alt="" class="reviews__button__1">
+				</button>
+				<button>
+					<img src="./img/ridd.svg" alt="" class="reviews__button__2">
+				</button>
+			</div>
+			<p class="reviews__swipe"><img src="./img/icon.png" alt="" class="reviews__swipe__img">Нажми и смахивай влево</p>
+		</section>
+			<section class="contacts">
+			<div class="contacts__text__body">
+				<h2 class="contacts__title">Контакты</h2>
+				<div class="contacts__text">Подписывайтесь на нас или пишите нам.</div>
+				<div class="contact__blocks">
+					<div class="contacts__block">
+						<img src="./img/Frame%203965%20(1).png" alt="">
+						<div class="contacts__block__body">
+							<span class="contacts__block__title">Telegram канал</span>
+							<a href="https://vk.com/gyurov0" class="contacts__block__text">vk.com/gyurov0</a>
+						</div>
+					</div>
+					<div class="contacts__block">
+						<img src="./img/Frame%203965%20(1).png" alt="">
+						<div class="contacts__block__body">
+							<span class="contacts__block__title">Telegram канал</span>
+							<a href="https://vk.com/gyurov0" class="contacts__block__text">vk.com/gyurov0</a>
+						</div>
+					</div>
+					<div class="contacts__block">
+						<img src="./img/Frame%203965%20(1).png" alt="">
+						<div class="contacts__block__body">
+							<span class="contacts__block__title">Telegram канал</span>
+							<a href="https://vk.com/gyurov0" class="contacts__block__text">vk.com/gyurov0</a>
+						</div>
+					</div>
+					<div class="contacts__block">
+						<img src="./img/Frame%203965%20(1).png" alt="">
+						<div class="contacts__block__body">
+							<span class="contacts__block__title">Telegram канал</span>
+							<a href="https://vk.com/gyurov0" class="contacts__block__text">vk.com/gyurov0</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+			<section class="try">
+			<div class="try__body">
+					<img src="./img/Group%203971.png" alt="">
+					<p class="try__title">Попробуйте все возможности Study AI</p>
+				<div class="try__button">
+					<a href="https://vk.com/gyurov0" target="_blank" class="try__button__text">Создать аккаунт</a>
+				</div>
+			</div>
+		</section>
+			<section class="footer">
+			<div class="footer__first__body">
+				<div class="footer__first">
+				<div class="footer__company">
+					<img src="./img/logo.svg" alt="" class="logo">
+					<p class="footer__company__name">Study AI</p>
+				</div>
+				<p class="footer__first__text">Решайте задачи по учебе за 1 минуту <br> с помощью нейросети</p>
+				<p class="footer__first__telegram">
+					<img src="./img/Telegram_logo%203.png" alt="">
+					<img src="./img/Telegram_logo%203.png" alt="">
+				</p>
+			</div>
+			<div class="footer__second">
+				<p class="footer__second__title">Study AI</p>
+				<p class="footer__second__text">О сервисе</p>
+				<p class="footer__second__text">Возможности</p>
+				<p class="footer__second__text">Отзывы</p>
+				<p class="footer__second__text">Контакты</p>
+			</div>
+			<div class="footer__second">
+				<p class="footer__second__title">Контакты</p>
+				<p class="footer__second__text">support@studyai.ru</p>
+				<p class="footer__second__text">t.me/supportstudyai_bot</p>
+			</div>
+			<div class="footer__second">
+					<p class="footer__second__title">Юридическая информация</p>
+					<p class="footer__second__text">Политика конфиденциальности</p>
+					<p class="footer__second__text">Политика файлов cookie</p>
+					<p class="footer__second__text">Положения и условия</p>
+					<p class="footer__second__text">Политика возврата</p>
+			</div>
+			</div>
+			<div class="footer__end__body">
+				<div class="footer__end__text">
+					<span class="footer__end__text__main">ООО “Грааль групп”, ИНН: 9706022757 КПП: 770601001, Москва, Пресненская наб., 8, стр. 1</span>
+					<span class="footer__end__text__second">ООО “Грааль групп”</span>
+				</div>
+			</div>
+		</section>
+		</div>
+	</body>
+</html>

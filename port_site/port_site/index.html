@@ -1,0 +1,116 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>FLEXBOX</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+	<section class="header">
+		<span class="header__company__name">
+			<img src="./img/name.svg" alt="">
+		</span>
+		<div class="buttons">
+			<a href="https://vk.com/gyurov0" target="_blank" class="header__button__red">Home</a>
+			<a href="https://vk.com/gyurov0" target="_blank" class="header__button">Episodes</a>
+			<a href="https://vk.com/gyurov0" target="_blank" class="header__button">About</a>
+			<a href="https://vk.com/gyurov0" target="_blank" class="header__button">Contact</a>
+		</div>
+	</section>
+	<section class="podcast">
+		<img src="./img/ngg.jpg" alt="" class="nigga">
+		<div class="podcast__text__area">
+			<span class="podcast__text">Take your podcast to the next <span class="podcast__text__fat">level</span></span>
+			<div class="podcast__links">
+				<span class="podcast__links__title">Listen on</span>
+				<div class="links__body">
+					<a href="https://vk.com/gyurov0" class="podcast__link" target="_blank"><img src="./img/1.svg" alt=""></a>
+					<a href="https://vk.com/gyurov0" class="podcast__link" target="_blank"><img src="./img/2.svg" alt=""></a>
+					<a href="https://vk.com/gyurov0" class="podcast__link" target="_blank"><img src="./img/3.svg" alt=""></a>
+					<a href="https://vk.com/gyurov0" class="podcast__link" target="_blank"><img src="./img/4.svg" alt=""></a>
+					<a href="https://vk.com/gyurov0" class="podcast__link" target="_blank"><img src="./img/5.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="episodes">
+		<div class="episodes__title__body">
+			<h2 class="episodes__title">Latest episodes</h2>
+			<div class="episodes__title__button"><a href="https://vk.com/gyurov0" target="_blank" class="episodes__title__button__text">View all episodes</a></div>
+		</div>
+		<div class="episodes__blocks__body">
+			<div class="episodes__block">
+				<img src="./img/mic.png" alt="">
+				<div class="block__body">
+					<span class="block__title">Tips & Tricks</span>
+					<span class="block__text__1">Episode 2</span>
+					<span class="block__text__2">Mic tricks to take you to the next level</span>
+					<span class="block__text__3">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</span>
+					<div class="block__button"><a href="https://vk.com/gyurov0" target="_blank" class="block__button__text">View Episode Details</a></div>
+				</div>
+			</div>
+			<div class="episodes__block">
+				<img src="./img/mic.png" alt="">
+				<div class="block__body">
+					<span class="block__title">Tips & Tricks</span>
+					<span class="block__text__1">Episode 2</span>
+					<span class="block__text__2">Mic tricks to take you to the next level</span>
+					<span class="block__text__3">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</span>
+					<div class="block__button"><a href="https://vk.com/gyurov0" target="_blank" class="block__button__text">View Episode Details</a></div>
+				</div>
+			</div>
+			<div class="episodes__block">
+				<img src="./img/mic.png" alt="">
+				<div class="block__body">
+					<span class="block__title">Tips & Tricks</span>
+					<span class="block__text__1">Episode 2</span>
+					<span class="block__text__2">Mic tricks to take you to the next level</span>
+					<span class="block__text__3">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</span>
+					<div class="block__button"><a href="https://vk.com/gyurov0" target="_blank" class="block__button__text">View Episode Details</a></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="footer__logo">
+			<img src="./img/name.svg" class="footer__logo__name">
+			<div class="footer__icons">
+				<img src="./img/11.svg" alt=""><img src="./img/22.svg" alt=""><img src="./img/33.svg" alt="">
+			</div>
+		</div>
+		<div class="footer__column">
+			<span class="footer__column__text">Home</span>
+			<span class="footer__column__text">About</span>
+			<span class="footer__column__text">Episodes</span>
+			<span class="footer__column__text">Contact</span>
+		</div>
+		<div class="footer__column">
+			<span class="footer__column__text">Style Guide</span>
+			<span class="footer__column__text">Instructions</span>
+			<span class="footer__column__text">Changelog</span>
+			<span class="footer__column__text">Credit</span>
+			<span class="footer__column__text">Powered by Webflow</span>
+			<span class="footer__column__text">Licenses</span>
+		</div>
+		<div class="footer__links">
+			<img src="./img/1.svg" alt="" class="footer__link">
+			<img src="./img/2.svg" alt="" class="footer__link">
+			<img src="./img/3.svg" alt="" class="footer__link">
+			<img src="./img/4.svg" alt="" class="footer__link">
+			<img src="./img/5.svg" alt="">
+		</div>
+	</section>
+	</body>
+</html>
